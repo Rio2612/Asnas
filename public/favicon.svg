@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Shield background -->
+  <path d="M32 4L8 14v18c0 14 10.4 26.2 24 30 13.6-3.8 24-16 24-30V14L32 4z" fill="#0a1628"/>
+  <path d="M32 8L11 17v15c0 12 9 22.7 21 26.3C44 54.7 53 44 53 32V17L32 8z" fill="#c9a84c" opacity="0.15"/>
+  <!-- Shield border -->
+  <path d="M32 6L9.5 15.2v16.8c0 13.2 9.6 24.7 22.5 28.2C44.9 56.7 54.5 45.2 54.5 32V15.2L32 6z" stroke="#c9a84c" stroke-width="1.5" fill="none"/>
+  <!-- Letter D -->
+  <text x="22" y="41" font-family="serif" font-weight="700" font-size="22" fill="#c9a84c">D</text>
+  <!-- Letter A small -->
+  <text x="35" y="41" font-family="serif" font-weight="700" font-size="14" fill="white" opacity="0.8">A</text>
+</svg>
