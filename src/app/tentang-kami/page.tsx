@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://duniaasuransi.com/tentang-kami" },
   openGraph: {
     title: "Tentang Kami | Dunia Asuransi",
-    description: "Konsultan asuransi kerugian terpercaya dengan pengalaman 15+ tahun melayani klien di seluruh Indonesia.",
+    description: "Konsultan asuransi kerugian terpercaya dengan pengalaman 12+ tahun melayani klien di seluruh Indonesia.",
     url: "https://duniaasuransi.com/tentang-kami",
   },
 };
@@ -35,7 +35,7 @@ const jsonLd = {
     name: "Dunia Asuransi",
     url: "https://duniaasuransi.com",
   },
-  telephone: "+628131556592",
+  telephone: "+628131256592",
   email: "rio@duniaasuransi.com",
   knowsAbout: [
     "Asuransi Properti",
@@ -162,10 +162,10 @@ export default function TentangKamiPage() {
               <h2 className="font-syne font-bold text-3xl text-[#0a1628] mb-5">
                 Mengapa Memilih Dunia Asuransi?
               </h2>
-              <p className="text-[#334155] font-dm leading-relaxed mb-5">
-                Dengan pengalaman lebih dari 15 tahun di industri asuransi kerugian Indonesia, kami telah membantu ribuan klien — mulai dari individu yang ingin melindungi kendaraan dan rumahnya, hingga perusahaan besar yang membutuhkan solusi asuransi komprehensif untuk aset industri senilai ratusan miliar rupiah.
+              <p className="text-[#334125] font-dm leading-relaxed mb-5">
+                Dengan pengalaman lebih dari 12 tahun di industri asuransi kerugian Indonesia, kami telah membantu ribuan klien — mulai dari individu yang ingin melindungi kendaraan dan rumahnya, hingga perusahaan besar yang membutuhkan solusi asuransi komprehensif untuk aset industri senilai ratusan miliar rupiah.
               </p>
-              <p className="text-[#334155] font-dm leading-relaxed mb-6">
+              <p className="text-[#334125] font-dm leading-relaxed mb-6">
                 Kami bukan hanya penjual polis. Kami adalah mitra yang memahami kebutuhan spesifik Anda, merekomendasikan solusi terbaik dari berbagai perusahaan asuransi berlisensi OJK, dan mendampingi Anda saat proses klaim.
               </p>
               <div className="space-y-3">
@@ -174,11 +174,11 @@ export default function TentangKamiPage() {
                   "Perbandingan dari 10+ perusahaan asuransi terpercaya",
                   "Bantuan klaim dari awal hingga selesai",
                   "Layanan nasional via WhatsApp & online",
-                  "Pengalaman 15+ tahun di industri asuransi kerugian",
+                  "Pengalaman 12+ tahun di industri asuransi kerugian",
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-[#c9a84c] flex-shrink-0" />
-                    <span className="text-[#334155] font-dm text-sm">{item}</span>
+                    <span className="text-[#334125] font-dm text-sm">{item}</span>
                   </div>
                 ))}
               </div>
@@ -230,7 +230,7 @@ export default function TentangKamiPage() {
             {expertise.map((item, i) => (
               <div
                 key={i}
-                className="bg-white rounded-xl p-4 border border-[#e8e1ce] text-sm font-dm text-[#334155] flex items-center gap-2"
+                className="bg-white rounded-xl p-4 border border-[#e8e1ce] text-sm font-dm text-[#334125] flex items-center gap-2"
               >
                 <span className="w-2 h-2 bg-[#c9a84c] rounded-full flex-shrink-0" />
                 {item}
